@@ -44,7 +44,7 @@ All models were trained and tested using **scaled data** for fair comparison.
 
 XGBoost was selected as the **final best model** due to its consistent superiority across all macro-level metrics.
 
-## 🎯 Brownie Points
+## Brownie Points
 - Implemented **RandomForest** and **XGBoost** for comparison.  
 - Designed an **Inverse Random Forest** (flipped predictions) as a low-AUC baseline < 0.5 (around 0.01).  
 - Added **Dummy (Stratified)** baseline has AUC < 0.5 (~0.49)  
@@ -52,5 +52,5 @@ XGBoost was selected as the **final best model** due to its consistent superiori
 
 ---
 
-## 🧾 Summary
+## Summary
 The task successfully explored multiple classification models, assessed their comparative performance, and identified **XGBoost** as the optimal choice based on macro-level evaluation metrics.
